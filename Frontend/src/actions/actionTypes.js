@@ -1,0 +1,7 @@
+export const ADD_DOCTOR = "ADD_DOCTOR"
+export const ADD_USER = "ADD_USER"
+export const ADD_DOCTORS = "ADD_DOCTORS"
+export const ADD_KEY_WORDS = "ADD_KEY_WORDS"
+export const ADD_PAIN = "ADD_PAIN"
+export const ADD_HUMAN_BODY = "ADD_HUMAN_BODY"
+export const ADD_ANNOTATIONS = "ADD_ANNOTATIONS"
