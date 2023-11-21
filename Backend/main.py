@@ -1,6 +1,7 @@
 from typing import Union
 import json
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import json
 from vectorial_model import get_vectorial_model, pre_processing
@@ -13,6 +14,17 @@ import paramiko
 import boto3
 
 app = FastAPI()
+origins = [
+    'http://localhost:3000',
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=['*'],
+    allow_headers=['*']
+)
 
 # get your instance ID from AWS dashboard
 

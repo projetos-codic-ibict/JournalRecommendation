@@ -1,0 +1,33 @@
+.main-div {
+    .main-paper {
+
+        background-color: #F7F2FA;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+        text-align: right;
+
+        .title {
+            width: 95%;
+            text-align: left;
+            margin-left: 20px
+        }
+
+        .summary {
+            width:95%;
+            text-align:left;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        .button {
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-transform: none;
+            border-radius: 55px;
+            font-family: Mulish;
+            font-weight: bold;
+        }
+    }
+}
